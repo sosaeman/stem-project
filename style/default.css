@@ -1,0 +1,117 @@
+
+.video {
+  position: relative;
+}
+
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.header {
+  
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+h1 {
+  color: white;
+  font-family: 'Nobile', sans-serif;
+   border:3px solid white;
+   padding:10px;
+}
+
+main {
+
+}
+section{
+	 background-attachment: fixed;
+	 background-size:cover;
+}
+.background {
+	background-image:url("images/dnascience.jpg");
+	position:fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+.video2{
+ background-attachment: fixed;
+	
+}
+.abstract{
+	width:80%;
+	margin:0 auto;
+	padding:20px 100px 20px 100px;
+	
+}
+
+p.desc {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+ opacity:none;
+ 
+}
+.content{
+position: absolute;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  border:3px solid white;
+  top:0;
+ background: rgba(0, 0, 0, 0.5);
+}
+.box
+{
+ height:420px;
+ width:750;
+ margin:0 auto; 
+ background-image:url("../images/dnascience.jpg");
+}
+.flexbox{
+	display:flex;
+	justify-content:center;
+	width:80%;
+	margin:0 auto;
+}
+.flexbox div{
+	background-color:white;
+	width:400px;
+	height:350px;
+	text-align:center;
+	margin:20px;
+	background: rgba(0, 64, 128, 0.5);
+	color:white;
+	padding-top:20px;
+	text-decoration:none;
+}
+.flexbox div:hover{
+	background: rgba(0, 77, 153, 1);
+	
+}
+
+footer{
+
+	font-family:Comic Sans MS, cursive, sans-serif;
+	text-align:center;
+	
+}
+img.validator
+{
+	width:5%;
+}
+iframe
+{
+	width:100%;
+	height:550px;
+}

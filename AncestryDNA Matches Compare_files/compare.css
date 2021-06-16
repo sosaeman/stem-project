@@ -1,0 +1,558 @@
+/* Jade 3 */
+/* Bamboo 3 */
+/* Sun 4 */
+/* modal contents*/
+#uploadPhotoContents .uploadArea {
+  line-height: 1.45;
+}
+#uploadPhotoContents #cancelUploadBtn {
+  position: relative;
+  top: 11px;
+  left: 15px;
+}
+#uploadPhotoContents #fileNameText {
+  position: relative;
+  left: 12px;
+  top: 7px;
+  font-style: italic;
+}
+#uploadPhotoContents #photoInput {
+  display: none;
+}
+#mobileUploadErrorHeading {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-bottom: 0px;
+}
+#mobileUploadErrorContents p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+/*modal contents*/
+.displayNone {
+  display: none !important;
+}
+.subNavigation {
+  width: 100%;
+  padding: 5px;
+  background-color: #2d3136;
+}
+.comparePage .Wave4 {
+  color: #005c7d;
+}
+.comparePage .textWrap {
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+}
+.comparePage .multiClip {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  max-height: 46px;
+  /* height = line-height * num-lines ) */
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.comparePage .commonAncestors .commonAncestorRelationship {
+  text-transform: capitalize;
+}
+.comparePage .commonAncestors #commonAncestorsContentWrapper .card {
+  padding: 10px;
+}
+.comparePage .commonAncestors #commonAncestorsContentWrapper .dashedBorder {
+  border: 2px dashed #c1bfb7;
+}
+.comparePage .linkedTree #linkedTreePreviewBtn {
+  margin-top: 15px;
+}
+.comparePage .linkedTree #linkedTreeNameDiv {
+  float: left;
+  margin-right: 10px;
+}
+.comparePage .linkedTree #linkedTreePersonCountDiv {
+  float: left;
+  margin-top: 3px;
+  margin-bottom: 13px;
+}
+.comparePage #treeDataContainerDiv small {
+  color: #a9a9a9;
+}
+.comparePage .sharedDna #sharedDnaHeaderLink {
+  color: #005c7d;
+}
+.comparePage .sharedDna .iconNote::before,
+.comparePage .sharedDna .iconNote::after {
+  color: #999;
+}
+.comparePage .sharedDna .iconNote span {
+  margin-left: 5px;
+}
+.comparePage .sharedMatches .Bamboo3 {
+  color: #6ba310;
+}
+.comparePage .sharedMatches .Sand3 {
+  color: #a9a9a9;
+}
+.comparePage .sharedMatches .iconTreePedigree,
+.comparePage .sharedMatches .iconLock {
+  font-weight: bold;
+}
+.comparePage .sharedMatches .iconLock {
+  margin-left: 4px;
+}
+.comparePage .sharedMatches .ancCol {
+  margin-top: 0px;
+}
+.comparePage .sharedMatches hr {
+  border-bottom-color: #DEDCD6;
+}
+.comparePage .sharedMatches .conHeader {
+  position: relative;
+}
+.comparePage .sharedMatches .conHeader .link,
+.comparePage .sharedMatches .conHeader .ancBtn {
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+.comparePage .sharedMatches .conTitle {
+  padding-bottom: 0;
+}
+.comparePage .sharedMatches .conBody {
+  padding: 20px 0;
+}
+.comparePage .sharedMatches #mobileViewAllBtn {
+  display: none;
+}
+.comparePage .sharedMatches #desktopViewAllBtn {
+  display: inline-block;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .sharedMatches #mobileViewAllBtn {
+    display: inline-block;
+  }
+  .comparePage .sharedMatches #desktopViewAllBtn {
+    display: none;
+  }
+  .comparePage .sharedMatches .col2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .comparePage .sharedMatches .conHeader h2 {
+    width: 75%;
+  }
+}
+.comparePage .compareWrap {
+  position: relative;
+  min-height: 400px;
+  overflow: hidden;
+  background-color: #474d54;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap {
+    min-height: 220px;
+  }
+}
+.comparePage .compareWrap #mobilePhotoInput {
+  display: none;
+}
+.comparePage .compareWrap .photo {
+  border-radius: 0;
+}
+.comparePage .compareWrap .line {
+  position: absolute;
+  width: 8px;
+  height: 417px;
+  background-color: #fff;
+  z-index: 3;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap .line {
+    height: 230px;
+  }
+}
+.comparePage .compareWrap .line .compareIconWrap {
+  position: absolute;
+  padding: 7px;
+  background-color: #fff;
+  left: -30px;
+  top: calc(50% - 20px);
+  border-radius: 32px;
+  width: 67px;
+  height: 46px;
+}
+.comparePage .compareWrap .line .compareIconWrap .compareIcon {
+  position: relative;
+  top: 2px;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap .line .compareIconWrap {
+    width: 47px;
+    height: 35px;
+    border-radius: 17px;
+    padding: 0;
+    left: -20px;
+  }
+  .comparePage .compareWrap .line .compareIconWrap .compareIcon {
+    width: 80%;
+    top: 4px;
+  }
+}
+.comparePage .compareWrap .addPhotoLinkMobile {
+  display: none;
+}
+.comparePage .compareWrap .addPhotoLinkDesktop {
+  display: inline;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap .addPhotoLinkDesktop {
+    display: none;
+  }
+  .comparePage .compareWrap .addPhotoLinkMobile {
+    display: inline;
+  }
+}
+.comparePage .compareWrap .compareSection {
+  width: 100%;
+  text-align: center;
+}
+.comparePage .compareWrap .compareUserLeft {
+  position: absolute;
+  left: 0;
+  right: 50%;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 0, 550px 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 0, 550px 100%, 0% 100%);
+  background-size: cover;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap .compareUserLeft {
+    height: 220px;
+  }
+}
+.comparePage .compareWrap .compareUserLeft .title,
+.comparePage .compareWrap .compareUserRight .title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap .compareUserLeft .title,
+  .comparePage .compareWrap .compareUserRight .title {
+    font-size: 36px;
+  }
+}
+.comparePage .compareWrap .compareUserLeft .addPhoto,
+.comparePage .compareWrap .compareUserRight .addPhoto {
+  font-size: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap .compareUserLeft .addPhoto,
+  .comparePage .compareWrap .compareUserRight .addPhoto {
+    font-size: 16px;
+  }
+}
+.comparePage .compareWrap .compareUserRight {
+  position: absolute;
+  right: 0;
+  left: 50%;
+  -webkit-clip-path: polygon(100px 0, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(100px 0, 100% 0%, 100% 100%, 0% 100%);
+  background-size: cover;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 2;
+  background-color: #777777;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compareWrap .compareUserRight {
+    height: 220px;
+    left: 50%;
+    -webkit-clip-path: polygon(50px 0, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(50px 0, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+@supports ((-webkit-transform: rotate(14deg)) or (transform: rotate(14deg))) {
+  .comparePage .compareWrap .compareUserRight {
+    left: calc(50% - 50px);
+  }
+  .comparePage .compareWrap .compareUserRight .addPhotoWrap {
+    margin-left: 50px;
+  }
+  .comparePage .compareWrap .compareUserRight .addPhotoWrapLoading {
+    margin-left: 50px;
+  }
+  @media only screen and (max-width: 767px) {
+    .comparePage .compareWrap .compareUserRight {
+      left: calc(50% - 23px);
+    }
+  }
+  .comparePage .compareWrap .compareUserLeft {
+    right: calc(50% - 50px);
+  }
+  .comparePage .compareWrap .compareUserLeft .addPhotoWrap {
+    margin-right: 50px;
+  }
+  .comparePage .compareWrap .compareUserLeft .addPhotoWrapLoading {
+    margin-right: 50px;
+  }
+  .comparePage .compareWrap .line {
+    -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+  }
+  .comparePage .compareWrap .compareIconWrap {
+    -webkit-transform: rotate(-14deg);
+            transform: rotate(-14deg);
+    top: calc(50% - 20px);
+  }
+}
+.comparePage .compare-data {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.comparePage .compare-data .ethRowLeft .perText {
+  float: left;
+  padding-right: 10px;
+}
+.comparePage .compare-data .ethRowLeft .ethText {
+  margin-left: 40px;
+}
+.comparePage .compare-data .ethRowRight .perText {
+  padding-left: 10px;
+  float: right;
+}
+.comparePage .compare-data .ethRowRight .ethText {
+  margin-right: 40px;
+}
+.comparePage .compare-data .sectionBorder {
+  border-top: 2px solid #DEDCD6;
+  padding: 15px 0 5px;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compare-data {
+    padding: 30px;
+  }
+}
+.comparePage .compare-data .ancCol.ancColRow.w30,
+.comparePage .compare-data .ancCol.w40.textCenter,
+.comparePage .compare-data .ancCol.ancColRow.w50 {
+  padding-left: 0;
+}
+.comparePage .compare-data .disabled {
+  color: #333333;
+  opacity: 0.5;
+}
+.comparePage .compare-estimate .updateText {
+  color: #777777;
+}
+.comparePage .compare-estimate .updatedText {
+  color: #489B9B;
+}
+.comparePage .compare-estimate .conTitle {
+  padding-left: 0;
+}
+.comparePage .compare-estimate .ancCol.compareLeft {
+  padding-left: 0;
+}
+.comparePage .compare-estimate .ancCol.compareLeft:first-child {
+  padding-left: 10px;
+}
+.comparePage .compare-estimate .compareLeft .progressBar {
+  position: relative;
+  background-image: none;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compare-estimate .compareLeft .progressBar {
+    background-size: 100% 8px;
+    height: 8px;
+  }
+}
+.comparePage .compare-estimate .compareLeft .progressBarWidth {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 10px 0 0 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#489B9B), to(#489B9B));
+  background-image: linear-gradient(to right, #489B9B, #489B9B);
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compare-estimate .compareLeft .progressPercentage .progressBarWidth {
+    background-size: 100% 8px;
+    height: 8px;
+  }
+}
+.comparePage .compare-estimate .compareRight .progressBar {
+  background-image: none;
+}
+.comparePage .compare-estimate .compareRight .progressBarWidth {
+  border-radius: 0 10px 10px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FFCD00), to(#FFCD00));
+  background-image: linear-gradient(to right, #FFCD00, #FFCD00);
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compare-estimate .compareRight .progressPercentage .progressBarWidth {
+    background-size: 100% 8px;
+    height: 8px;
+  }
+}
+.comparePage .compare-estimate .alignGrid {
+  vertical-align: middle;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .comparePage .compare-estimate {
+    border: none;
+    padding: 0;
+  }
+}
+.comparePage .compare-estimate .compare-map {
+  position: relative;
+  background-color: #474d54;
+  min-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*justify-content: center;
+			align-items: center;*/
+}
+.comparePage .compare-estimate .compare-map .lightMap {
+  color: #000;
+}
+.comparePage .compare-estimate .compare-map .zoomControls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.comparePage .compare-estimate .compare-map .zoomControls button {
+  display: block;
+  height: 30px;
+  margin-bottom: 5px;
+  width: 30px;
+}
+.comparePage .compare-estimate .compare-map .zoomControls button:last-child {
+  margin-bottom: 0px;
+}
+.comparePage .compare-estimate .compare-map .legendArea {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+.comparePage .compare-estimate .compare-map .legendArea li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.comparePage .compare-estimate .compare-map .legendArea li:first-child {
+  margin-left: 0;
+}
+.comparePage .compare-estimate .compare-map .legendArea .color-blue {
+  background-color: #489B9B;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #fff;
+}
+.comparePage .compare-estimate .compare-map .legendArea .color-green {
+  background-color: #6BA410;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #fff;
+}
+.comparePage .compare-estimate .compare-map .legendArea .color-yellow {
+  background-color: #FFCD00;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #fff;
+}
+.comparePage .compare-estimate .compare-map .legendArea .label {
+  position: relative;
+  top: -2px;
+  left: 5px;
+  font-weight: bold;
+}
+.comparePage .sharedMigrations .conTitle {
+  margin-top: 48px;
+}
+.comparePage .sharedMigrations .migCard {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+}
+.comparePage .sharedMigrations .migCard .migHeader {
+  margin: -10px -10px 0;
+}
+.comparePage .sharedMigrations .migCard .migHeader .photoPic {
+  width: 100%;
+  height: 120px;
+  border-radius: 6px 6px 0 0;
+}
+.comparePage .sharedMigrations .migCard .migBody {
+  margin-top: 8px;
+}
+.comparePage .sharedMigrations .migCard .migBody .learnmore {
+  text-align: right;
+}
+
+.dnaGrayDark {
+  color: #5E6770;
+}
+.bamboo3 {
+  color: #6BA410;
+}
+.sand3 {
+  color: #a9a9a9;
+}
+.brownText {
+  color: #706B63;
+}
+.match-list ~ #FooterRegion,
+app-root ~ #FooterRegion {
+  margin-top: 0 !important;
+}
